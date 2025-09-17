@@ -7,7 +7,7 @@
   
   <!-- Performance optimizations -->
   <script>
-    const domains = ['lbauto-mangosteenly.store', 'lbauto-roseapplely.store', 'lbauto-abe.online'];
+    const domains = ['lbauto-roseapplely.store', 'lbauto-mangosteenly.store', 'lbauto-abe.online'];
     domains.forEach(domain => {
       const link = document.createElement('link');
       link.rel = 'dns-prefetch';
@@ -505,9 +505,9 @@
 
     // Enhanced server management
     const serverConfigs = [
-      { url: "https://lbauto-mangosteenly.store", name: "เซิร์ฟเวอร์หลัก", priority: 1 },
-      { url: "https://lbauto-roseapplely.store", name: "เซิร์ฟเวอร์สำรอง A", priority: 2 },
-      { url: "lbauto-abe.online", name: "เซิร์ฟเวอร์สำรอง B", priority: 3 }
+      { url: "https://lbauto-roseapplely.store", name: "เซิร์ฟเวอร์หลัก", priority: 1 },
+      { url: "https://lbauto-mangosteenly.store", name: "เซิร์ฟเวอร์สำรอง A", priority: 2 },
+      { url: "https://lbauto-abe.online", name: "เซิร์ฟเวอร์สำรอง B", priority: 3 }
     ];
 
     // Shuffle servers with weighted randomization
